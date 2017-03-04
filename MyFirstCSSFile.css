@@ -1,0 +1,72 @@
+body{
+	background: #999;
+}
+h1{
+	color: green;
+}
+
+p{
+	background: #666;
+	color: white;
+	padding: 20px 10px 50px 30px;
+	//top rigth bottom left
+	//ot just 1 for all sides
+}
+
+.wtfIsThis{
+	color: white;
+	//mark stuff to be diffrent from other stuff from this tag
+	//if we make same paragraph the second one overites the first one
+	//but not this specified subclass
+}
+
+#idStuff{
+	//this is a special thing and it's only one thign for the page
+	//like class-es but a little faster
+}
+
+.floatLeft{
+	display: inline-block;
+	float: left;
+	list-style-type: none;
+}
+.stopFloat{
+	clear: both;
+	list-style-type: none;
+}
+ul li dir img{
+	max-width:175px;
+  	height:auto;	
+}
+ul li ul li img{
+	max-width:75px;
+ 	height:auto; 	
+}
+
+ul{
+	list-style-type: none;
+}
+
+ul li img{
+	max-width:275px;
+  	height:auto;
+	margin:0 0 0 25px;
+}
+
+dir{
+	margin: 0;
+	padding: 0;
+}
+ul{
+	margin: 0;
+	padding: 0;
+}
+li{
+	margin: 0;
+	padding: 0;
+}
+ul li ul dir img{
+	max-width:75px;
+ 	height:auto; 
+ 	margin:0 0 0 25px;
+}
