@@ -1,0 +1,81 @@
+body{
+	margin: 0;
+	background: #b3d0cb;
+}
+
+
+header{
+	background: #1a5c80;
+	color: white;
+	padding: 15px 10px 0 0;
+}
+
+header h1{
+		margin: 0;
+		display: inline;
+		
+}
+
+nav ul{
+		margin: 0;
+		padding: 0 0 0 15px;
+		display: inline;
+}
+
+nav ul li{
+	color: #549dab;
+	font-family: "Monospace", Lucida Console, serif;
+	display: inline-block;
+	list-style-type: none;
+	padding: 15px 10px;
+}
+
+nav ul li a{
+	color: #549dab;
+}
+
+h4{
+	margin: 0;
+}
+.goRight{
+	float: right;
+	background: #11557a;
+	padding: 15px;
+}
+.row{
+	background-color: #0d3b59;
+}
+.col{
+	font-family: "Monospace", Lucida Console, serif;
+	font-size: 20px;
+	display: inline-block;
+	background: #0d3b59;
+	margin: 0;
+	padding: 10px;
+	width: 9%;
+	color: #549dab;
+	//we can use % instead of px this way is better if the screen is diffrent size	
+}
+.BGforWelcome{
+	background: red;
+	margin: 0;
+	padding: 0;
+}
+a{
+	color: #549dab;
+	text-decoration: none;
+}
+h1{
+	margin: 0;
+	color: #0d3b59;
+}
+.rightSide{
+		float: right;	
+		color: #0d3b59;	
+}
+.colTypeTwo{
+		float: left;
+}
+.type{
+	margin: 75px 100px 0 50px;
+}
